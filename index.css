@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    /* ### Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    /* ### Neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+     font-size: 18px;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header{
+    /*Border for background */
+    border: 1px solid white;
+    background-image: url('/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top:10%;
+    text-align: center;
+}
+.container h3{
+    font-size: 2rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.container p{
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+}
+.cont_h3_P{
+    margin: 3% auto;
+}
+.Download{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.Download a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+.ios{
+    background-color: var(--Strong-Cyan);
+}
+.ios:hover{
+    opacity: .8; 
+    box-shadow: 10px 5px 19px var(--Strong-Cyan); 
+}
+.mac{
+    background-color: var( --Light-Blue);
+}
+.mac:hover{
+    opacity: .8; 
+    box-shadow: 10px 5px 19px var(--Light-Blue);
+}
+/* main */
+.keep{
+    width: 60%;
+    margin: 10% auto;
+    text-align: center;
+}
+.keep h4{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.keep p{
+    color: var(--Grayish-Blue);
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}      
+
+.img_section1{
+    background-image: url(/images/image-computer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 45vw;
+}
+.article{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 40%;
+   align-items: center;
+}
+.all{
+    width: 200px;
+    text-align: left;
+}
+.all h5{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.all p{
+    color: var(--Grayish-Blue);
+}
+
+.break{
+    margin: 10% auto;
+    text-align: center;
+    width: 50%;
+}
+.break h5{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.break p{
+    color: var(--Grayish-Blue);
+}
+
+.img_device{
+    background-image: url(/images/image-devices.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 40vw;
+}
+/* break2 */
+.break_2{
+    margin: 5% auto;
+    text-align: center;
+    width: 50%;
+}
+.break_2 h5{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.break_2 p{
+    color: var(--Grayish-Blue);
+}
+
+.section_2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-evenly;
+}
+.all_black_snippets_Sneak{
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+.icon_balacklists{
+    background-image: url(/images/icon-blacklist.svg);
+
+}
+
+.icon_snippets{
+    background-image: url(/images/icon-text.svg);
+}
+.icon_Sneak{
+    background-image: url(/images/icon-preview.svg);
+}
+
+.all_icon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 0%;
+    left: 44%;
+}
+.all_black_snippets_Sneak h5{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.all_black_snippets_Sneak p{
+    color: var(--Grayish-Blue);
+}
+
+.sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: 10% auto;
+}
+
+
+.google{
+    width: 150px;
+    height: 44px;
+    background-image: url(/images/logo-google.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ibm{
+    width: 150px;
+    height: 55px;
+    background-image: url(/images/logo-ibm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.microsoft{
+    width: 205px;
+    height: 44px;
+    background-image: url(/images/logo-microsoft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hewlett{
+    width: 150px;
+    height: 44px;
+    background-image: url(/images/logo-hp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vector{
+    width: 183px;
+    height: 44px;
+    background-image: url(/images/logo-vector-graphics.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont2_h3_P{
+    width: 40%;
+    height: auto;
+    margin-top: 10%;
+    margin: auto;
+    text-align: center;
+}
+.cont2_h3_P h3{
+    font-size: 1.4rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.cont2_h3_P p{
+    color: var(--Grayish-Blue);
+}
+.Download2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+}
+.Download2 a{
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    padding: 5px;
+    border-radius: 20px;
+}
+footer{
+    background-color: var(--Grayish-Blue);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    display: flex;
+    position: relative;
+}
+.log2{
+    background-image: url('/images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 77px;
+    height: 77px;
+    position: relative;
+    top: 27%;
+}
+.flexAll{
+    justify-content: center;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.flex1 h6 a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--Dark-Grayish-Blue);
+}
+h6 a:hover{
+    color: var(--Strong-Cyan);
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.flex2 h6 a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.flex2 h6 a:hover{
+    color: var(--Strong-Cyan);
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.flex3 h6 a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--Dark-Grayish-Blue);
+}
+.flex3 h6 a:hover{
+    color: var(--Strong-Cyan);
+}
+.flex_icon{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.iconF{
+    background-image: url(/images/icon-facebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.iconF:hover{
+    background-color: var(--Strong-Cyan);
+}
+.iconTwit:hover{
+    background-color: var(--Strong-Cyan);
+}
+.iconInst:hover{
+    background-color: var(--Strong-Cyan);
+}
+.iconInst{
+    background-image: url(/images/icon-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.iconTwit{
+    background-image: url(/images/icon-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 36px;
+    height: 30px;
+}
+/* media */
+@media only screen and (max-width:1108px){
+    .Download{
+        width: 54%;
+    }   
+}
+@media only screen and (max-width:930px){
+    .Download{
+        width: 77%;
+    }   
+}
+@media only screen and (max-width:644px){   
+    .Download{
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .ios{
+        margin-bottom: 15px;
+    }
+    .Download2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:535px){
+    .section1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_2{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex_icon{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
